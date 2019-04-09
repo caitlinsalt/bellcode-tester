@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BellTest.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HoldDownThreshold" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.8</Value>
+    </Setting>
+    <Setting Name="GroupPauseThreshold" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.3</Value>
+    </Setting>
+    <Setting Name="CodeEndedThreshold" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1.2</Value>
+    </Setting>
+    <Setting Name="CodeListFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CodeList.xml</Value>
+    </Setting>
+    <Setting Name="BellSoundFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bell.wav</Value>
+    </Setting>
+    <Setting Name="NeedleDeflection" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">0.2617993</Value>
+    </Setting>
+    <Setting Name="CodeEndPollingPeriod" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.5</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

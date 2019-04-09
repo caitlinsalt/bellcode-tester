@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codelists>
+  <codelist name="ETT Regulations Bell Codes" description="Codes typically used for ETT train signalling - includes simulating holding down">
+    <code name="Call Attention">
+      <g><b/></g>
+    </code>
+    <code name="Is Line Clear for Class A express passenger train, breakdown van train going to clear the line, light engine going to assist disabled train, or Officers' Special train not requiring to stop in section">
+      <g><b/><b/><b/><b/></g>
+    </code>
+    <code name="Line Clear for Class A express passenger train, breakdown van train going to clear the line, light engine going to assist a disabled train, or Officers' Special train not requiring to stop in section" release="token">
+      <g><b/><b/><b/><h/></g>
+    </code>
+    <code name="Is Line Clear for Class A express passenger train formed by Diesel Multiple Unit or Railcar">
+      <g><b/><b/><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Line Clear for Class A express passenger train formed by Diesel Multiple Unit or Railcar" release="token">
+      <g><b/><b/><b/><b/></g>
+      <g><b/><h/></g>
+    </code>
+    <code name="Is Line Clear for Class B ordinary passenger train, mixed train, or breakdown van train not going to clear the line">
+      <g><b/><b/><b/></g>
+      <g><b/></g>
+    </code>
+    <code name="Line Clear for Class B ordinary passenger train, mixed train, or breakdown van train not going to clear the line" release="token">
+      <g><b/><b/><b/></g>
+      <g><h/></g>
+    </code>
+    <code name="Is Line Clear for Class B ordinary passenger train formed by Diesel Multiple Unit or Railcar">
+      <g><b/><b/><b/></g>
+      <g><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Line Clear for Class B ordinary passenger train formed by Diesel Multiple Unit or Railcar" release="token">
+      <g><b/><b/><b/></g>
+      <g><b/></g>
+      <g><b/><h/></g>
+    </code>
+    <code name="Is Line Clear for Class C Empty Coaching Stock train not specially authorised to carry 'A' headcode">
+      <g><b/><b/></g>
+      <g><b/><b/></g>
+      <g><b/></g>
+    </code>
+    <code name="Line Clear for Class C Empty Coaching Stock train not specially authorised to carry 'A' headcode" release="token">
+      <g><b/><b/></g>
+      <g><b/><b/></g>
+      <g><h/></g>
+    </code>
+    <code name="Is Line Clear for Class C Empty Diesel Multiple Unit or Railcar">
+      <g><b/><b/></g>
+      <g><b/><b/></g>
+      <g><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Line Clear for Class C Empty Diesel Multiple Unit or Railcar" release="token">
+      <g><b/><b/></g>
+      <g><b/><b/></g>
+      <g><b/></g>
+      <g><b/><h/></g>
+    </code>
+    <code name="Is Line Clear for Class C parcels train or fully fitted freight train">
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Line Clear for Class C parcels train or fully fitted freight train">
+      <g><b/><b/><b/><b/><h/></g>
+    </code>
+    <code name="Is Line Clear for Class F freight train, not fully fitted, not calling at intermediate stations">
+      <g><b/><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Line Clear for Class F freight train, not fully fitted, not calling at intermediate stations">
+      <g><b/><b/><b/></g>
+      <g><b/><h/></g>
+    </code>
+    <code name="Is Line Clear for Class G light engine or light engines coupled">
+      <g><b/><b/></g>
+      <g><b/><b/><b/></g>
+    </code>
+    <code name="Line Clear for Class G light engine or light engines coupled">
+      <g><b/><b/></g>
+      <g><b/><b/><h/></g>
+    </code>
+    <code name="Is Line Clear for Class G engine with not more than two brake vans">
+      <g><b/></g>
+      <g><b/></g>
+      <g><b/><b/><b/></g>
+    </code>
+    <code name="Line Clear for Class G engine with not more than two brake vans">
+      <g><b/></g>
+      <g><b/></g>
+      <g><b/><b/><h/></g>
+    </code>
+    <code name="Is Line Clear for Class H freight train, not fully fitted, calling at intermediate stations">
+      <g><b/></g>
+      <g><b/><b/><b/><b/></g>
+    </code>
+    <code name="Line Clear for Class H freight train, not fully fitted, calling at intermediate stations">
+      <g><b/></g>
+      <g><b/><b/><b/><h/></g>
+    </code>
+    <code name="Is Line Clear for Class H freight, ballast train, Officers' Special train or Engineer's train requiring to stop in section">
+      <g><b/><b/></g>
+      <g><b/><b/></g>
+      <g><b/><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for trolley requiring to occupy section">
+      <g><b/><b/></g>
+      <g><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Warning Acceptance">
+      <g><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Train entering section">
+      <g><b/><b/></g>
+    </code>
+    <code name="Engine assisting in rear of train">
+      <g><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Engine with one or two brake vans assisting in rear of train">
+      <g><b/><b/></g>
+      <g><b/><b/><b/></g>
+      <g><b/></g>
+    </code>
+    <code name="Train out of section">
+      <g><b/><b/></g>
+      <g><b/></g>
+    </code>
+    <code name="Blocking Back">
+      <g><b/><b/><b/></g>
+      <g><b/><b/><b/></g>
+    </code>
+    <code name="Obstruction Removed">
+      <g><b/><b/></g>
+      <g><b/></g>
+    </code>
+    <code name="Release Token (request)">
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Release Token (acknowledge)" release="token">
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><h/></g>
+    </code>
+    <code name="Token replaced">
+      <g><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Stop and examine train">
+      <g><b/><b/><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Train passed without tail lamp (to box in advance or from box in rear)">
+      <g><b/><b/><b/><b/><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Train passed without tail lamp (to box in rear or from box in advance)">
+      <g><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Obstruction Danger">
+      <g><b/><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Opening signalbox">
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Closing signalbox">
+      <g><b/><b/><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Switching out signalbox (request)">
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Switching out signalbox (acknowledge)" release="switch">
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/><b/><h/></g>
+    </code>
+    <code name="Testing bells">
+      <g><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Transference of tokens">
+      <g><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/></g>
+    </code>
+      <code name="Distant signal defective">
+      <g><b/><b/><b/><b/><b/><b/><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Home signal defective">
+      <g><b/><b/></g>
+      <g><b/><b/><b/><b/><b/><b/><b/><b/></g>
+    </code>
+  </codelist>
+<codelist name="Absolute Block Regulations Bell Codes" description="Codes generally used in Absolute Block contexts">
+    <code name="Call Attention">
+      <g><b/></g>
+    </code>
+    <code name="Is Line Clear for Class A express passenger train, breakdown van train going to clear the line, light engine going to assist disabled train, or Officers' Special train not requiring to stop in section">
+      <g><b/><b/><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class A express passenger train formed by Diesel Multiple Unit or Railcar">
+      <g><b/><b/><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class B ordinary passenger train, mixed train, or breakdown van train not going to clear the line">
+      <g><b/><b/><b/></g>
+      <g><b/></g>
+    </code>
+    <code name="Is Line Clear for Class B branch passenger train">
+      <g><b/></g>
+      <g><b/><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class B ordinary passenger train formed by Diesel Multiple Unit or Railcar">
+      <g><b/><b/><b/></g>
+      <g><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class C Empty Coaching Stock train not specially authorised to carry 'A' headcode">
+      <g><b/><b/></g>
+      <g><b/><b/></g>
+      <g><b/></g>
+    </code>
+    <code name="Is Line Clear for Class C Empty Diesel Multiple Unit or Railcar">
+      <g><b/><b/></g>
+      <g><b/><b/></g>
+      <g><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class C parcels train or fully fitted freight train">
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class F freight train, not fully fitted, not calling at intermediate stations">
+      <g><b/><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class G light engine or light engines coupled">
+      <g><b/><b/></g>
+      <g><b/><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class G engine with not more than two brake vans">
+      <g><b/></g>
+      <g><b/></g>
+      <g><b/><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class H freight train, not fully fitted, calling at intermediate stations">
+      <g><b/></g>
+      <g><b/><b/><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class H branch freight train">
+      <g><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for Class H freight, ballast train, Officers' Special train or Engineer's train requiring to stop in section">
+      <g><b/><b/></g>
+      <g><b/><b/></g>
+      <g><b/><b/><b/></g>
+    </code>
+    <code name="Is Line Clear for trolley requiring to occupy section">
+      <g><b/><b/></g>
+      <g><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Warning Acceptance">
+      <g><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+  <code name="Line now clear in accordance with Regulation 4 for a train to approach">
+    <g><b/><b/><b/></g>
+    <g><b/><b/><b/></g>
+    <g><b/><b/><b/><b/><b/></g>
+  </code>
+    <code name="Train entering section">
+      <g><b/><b/></g>
+    </code>
+  <code name="Train approaching">
+    <g><b/></g>
+    <g><b/><b/></g>
+    <g><b/></g>
+  </code>
+  <code name="Cancelling">
+    <g><b/><b/><b/></g>
+    <g><b/><b/><b/><b/><b/></g>
+  </code>
+  <code name="Last train signalled incorrectly described">
+    <g><b/><b/><b/><b/><b/></g>
+    <g><b/><b/><b/></g>
+  </code>
+    <code name="Engine assisting in rear of train">
+      <g><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Engine with one or two brake vans assisting in rear of train">
+      <g><b/><b/></g>
+      <g><b/><b/><b/></g>
+      <g><b/></g>
+    </code>
+    <code name="Train out of section">
+      <g><b/><b/></g>
+      <g><b/></g>
+    </code>
+  <code name="Blocking Back inside home signal">
+    <g><b/><b/></g>
+    <g><b/><b/><b/><b/></g>
+  </code>
+    <code name="Blocking Back outside home signal">
+      <g><b/><b/><b/></g>
+      <g><b/><b/><b/></g>
+    </code>
+    <code name="Obstruction Removed">
+      <g><b/><b/></g>
+      <g><b/></g>
+    </code>
+  <code name="Movement in Wrong Direction">
+    <g><b/><b/></g>
+    <g><b/><b/><b/></g>
+    <g><b/><b/><b/></g>
+  </code>
+    <code name="Wrong direction movement clear of section">
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Wrong direction movement withdrawn">
+      <g><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+	<code name="Shunt into forward section">
+	  <g><b/><b/><b/></g>
+      <g><b/><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Shunt withdrawn">
+      <g><b/><b/><b/><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Stop and examine train">
+      <g><b/><b/><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Train passed without tail lamp (to box in advance or from box in rear)">
+      <g><b/><b/><b/><b/><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Train passed without tail lamp (to box in rear or from box in advance)">
+      <g><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Obstruction Danger">
+      <g><b/><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Opening signalbox">
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Closing signalbox">
+      <g><b/><b/><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+      <g><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Testing instruments and bells">
+      <g><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/><b/></g>
+    </code>
+    <code name="Distant signal defective">
+      <g><b/><b/><b/><b/><b/><b/><b/><b/></g>
+      <g><b/><b/></g>
+    </code>
+    <code name="Home signal defective">
+      <g><b/><b/></g>
+      <g><b/><b/><b/><b/><b/><b/><b/><b/></g>
+    </code>
+  </codelist>
+</codelists>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="Bell Code Tester" Language="1033" Version="1.0.2.0" Manufacturer="Will Salt" UpgradeCode="A2774317-0232-487A-A91F-353C88D57F01">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes" />
+    <UIRef Id="WixUI_InstallDir"/>
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+		<Feature Id="ProductFeature" Title="BellTest.Setup" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+    <WixVariable Id="WixUILicenseRtf" Value="$(var.BellTest.ProjectDir)Licence.rtf" />
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="Bell Code Tester" />
+			</Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="Bell Code Tester"/>
+      </Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="bell.wav.comp" Guid="1E140966-2C9B-4FA5-9851-9DBDC2027849" >
+        <File Id="bell.wav.file" Name="bell.wav" Source="$(var.BellTest.TargetDir)bell.wav" KeyPath="yes" />
+      </Component>
+      <Component Id="BellTest.exe.config.comp" Guid="2E1F3A99-89F6-4AF6-91FB-189E1C4FC10C">
+        <File Id="BellTest.exe.config.file" Name="BellTest.exe.config" Source="$(var.BellTest.TargetDir)BellTest.exe.config" KeyPath="yes"/>
+      </Component>
+      <Component Id="CodeList.xml.comp" Guid="5C30134D-F93E-47E2-9681-EF188E59A8E8">
+        <File Id="CodeList.xml.file" Name="CodeList.xml" Source="$(var.BellTest.TargetDir)CodeList.xml" KeyPath="yes"/> 
+      </Component>
+      <Component Id="BellTest.exe.comp" Guid="65CC484E-911D-4846-AA27-58D601E8A8F6">
+        <File Id="BellTest.exe.file" Name="BellTest.exe" Source="$(var.BellTest.TargetPath)" KeyPath="yes">
+          <Shortcut Id="BellTest.exe.link" Directory="ApplicationProgramsFolder" WorkingDirectory="INSTALLFOLDER" Name="Bell Code Tester" Advertise="yes"/>
+        </File>
+        <RemoveFolder Id="ApplicationProgramsFolder" Directory="ApplicationProgramsFolder" On="uninstall" />
+      </Component>
+      <Component Id="Licence.rtf.comp" Guid="F08093E0-3AF7-461C-9DD2-73EFF518EB2D">
+        <File Id="Licence.rtf.file" Name="Licence.rtf" Source="$(var.BellTest.TargetDir)Licence.rtf" KeyPath="yes" />
+      </Component>
+      <Component Id="Documentation.rtf.comp" Guid="9722721A-D58B-48E9-BAEC-C1DF71F837E8">
+        <File Id="Documentation.rtf.file" Name="Documentation.rtf" Source="$(var.BellTest.TargetDir)Documentation.rtf" KeyPath="yes" />
+      </Component>
+      <Component Id="ChangeLog.rtf.comp" Guid="F0961054-4543-41A9-85CC-AEF9D317BF17">
+        <File Id="ChangeLog.rtf.file" Name="ChangeLog.rtf" Source="$(var.BellTest.TargetDir)ChangeLog.rtf" KeyPath="yes" />
+      </Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>
