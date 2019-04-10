@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="Bell Code Tester" Language="1033" Version="1.0.2.0" Manufacturer="Will Salt" UpgradeCode="A2774317-0232-487A-A91F-353C88D57F01">
+	<Product Id="*" Name="Bell Code Tester" Language="1033" Version="1.0.3.0" Manufacturer="Will Salt" UpgradeCode="A2774317-0232-487A-A91F-353C88D57F01">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
